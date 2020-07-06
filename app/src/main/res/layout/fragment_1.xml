@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragments.Fragment1">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:drawableTop="@drawable/humaaans"
+        android:gravity="center"
+        android:text="This is Fragment 1"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</FrameLayout>
